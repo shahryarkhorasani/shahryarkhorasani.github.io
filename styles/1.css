@@ -1,0 +1,117 @@
+out .image {
+    position: relative;
+    margin: 50px 0;
+    margin: 23px 0 50px;
+    text-align: center;
+    width: 80%;
+    margin: 50px auto 0;
+}
+@media (min-width: 2200px) {
+    .page-contact .image {
+        width: 100%;
+        margin: 80px 0;
+    }
+}
+.page-contact .image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 84%;
+    height: 111%;
+    top: -6%;
+    left: 8%;
+    border: 2px solid #000000;
+}
+@media (min-width: 1600px) {
+    .page-contact .image:after {
+        height: 113%;
+        top: -7%;
+    }
+}
+@media (min-width: 2200px) {
+    .page-contact .image:after {
+        width: 76%;
+        height: 136%;
+        top: -18%;
+        left: 12%;
+    }
+}
+.page-contact .author {
+    position: absolute;
+    margin: 0;
+    right: 8%;
+    top: 105%;
+    font-size: 14px;
+}
+.page-contact .author:before {
+    content: "";
+    display: inline-block;
+    width: 51px;
+    height: 1px;
+    position: relative;
+    top: -4px;
+    right: 10px;
+    background-color: #000000;
+}
+@media (min-width: 1600px) {
+    .page-contact .author {
+        top: 108%;
+    }
+}
+@media (min-width: 2200px) {
+    .page-contact .author {
+        right: 12%;
+        top: 122%;
+    }
+}
+.page-contact h3 {
+    margin-top: 50px;
+}
+@media (min-width: 1600px) {
+    .page-contact h3 {
+        margin-top: 120px;
+        margin-bottom: 80px;
+        position: relative;
+    }
+    .page-contact h3:before {
+        content: "";
+        width: 7px;
+        height: 35px;
+        position: absolute;
+        left: 50%;
+        margin-left: -4px;
+        top: -75px;
+        background-image: url('../images/arrow-about.png');
+    }
+}
+@media (min-width: 2200px) {
+    .page-contact h3 {
+        margin-top: 190px;
+    }
+}
+.page-contact p {
+    color: #989898;
+    font-size: 13px;
+    line-height: 19px;
+}
+@media (min-width: 768px) {
+    .page-contact p {
+        margin: 0 100px 12px;
+    }
+}
+@media (min-width: 1600px) {
+    .page-contact p {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 0 200px 25px;
+    }
+}
+.page-contact .social-links {
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+@media (min-width: 1600px) {
+    .page-contact .social-links {
+        margin-top: 80px;
+    }
+}
