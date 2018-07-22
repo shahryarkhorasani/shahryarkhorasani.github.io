@@ -2224,9 +2224,10 @@ body.comingsoon .primary-title {
   position: relative;
   margin: 50px 0;
   margin: 23px 0 50px;
+  margin: 23px 0 50px;
   text-align: center;
   width: 80%;
-  margin: 50px auto 0;
+  margin: 500px auto 0;
 }
 @media (min-width: 2200px) {
   .page-about .image {
@@ -2287,7 +2288,8 @@ body.comingsoon .primary-title {
   }
 }
 .page-about h3 {
-  margin-top: 50px;
+  margin-top:
+          70px;
 }
 @media (min-width: 1600px) {
   .page-about h3 {
@@ -2354,9 +2356,21 @@ body.comingsoon .primary-title {
 .page-contact div[class*="col-"] {
   height: auto;
 }
+.page-contact .image{
+  position: relative;
+  text-align: center;
+  width: 80%;
+  margin: 350px auto 0;
+}
 @media (max-width: 768px) {
   .page-contact div[class*="col-"] input[type=submit] {
     float: none;
+  }
+}
+@media (min-width: 768px) {
+  .page-contact .image {
+    margin: 150px auto 0;
+
   }
 }
 @media (min-width: 768px) {
@@ -4039,8 +4053,8 @@ out .image {
 }
 @media (min-width: 1600px) {
   .page-contact h3 {
-    margin-top: 120px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 0px;
     position: relative;
   }
   .page-contact h3:before {
@@ -4073,7 +4087,7 @@ out .image {
   .page-contact p {
     font-size: 18px;
     line-height: 23px;
-    margin: 0 200px 25px;
+    margin: 40px 10px 25px;
   }
 }
 .page-contact .social-links {
