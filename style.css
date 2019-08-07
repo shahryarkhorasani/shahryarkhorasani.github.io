@@ -587,7 +587,7 @@ p.menu-text-title {
 }
 
 .toggle-holder {
-    bottom: 35px;
+    bottom: 50%;
     position: absolute;
     width: 70px;
     height: 70px;
